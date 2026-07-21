@@ -98,7 +98,7 @@ The trained model detects the following PCB manufacturing defects:
 
 | Analytics | PDF Report |
 |-----------|------------|
-| ![Analytics](assets/analytics.png) | ![Report](assets/report.png) |
+| ![Analytics](assets/analytics-dashboard.png) | ![Report](assets/report-downloadS.png) |
 
 ---
 
