@@ -243,6 +243,37 @@ The PCB defect detection model is trained using a custom merged dataset of publi
 
 The model is capable of detecting six different PCB defect categories in real time while maintaining fast inference speed.
 
+## Dataset
+
+The model was trained using a merged PCB defect dataset prepared from:
+
+- DeepPCB
+- TDD-PCB
+- HRIPCB
+- DsPCBSD+
+
+The datasets were combined into one YOLO-format dataset with six defect classes:
+
+- Open
+- Short
+- Mouse Bite
+- Spur
+- Spurious Copper
+- Missing Hole
+
+The training script expects the prepared merged dataset inside:
+
+```text
+dataset/merged/
+├── images/
+│   ├── train/
+│   ├── val/
+│   └── test/
+└── labels/
+    ├── train/
+    ├── val/
+    └── test/
+
 ### Supported Defect Classes
 
 | Class | Status |
