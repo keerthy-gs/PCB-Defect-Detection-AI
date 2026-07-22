@@ -1,0 +1,15 @@
+path: dataset/merged
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+
+names:
+  0: open
+  1: short
+  2: mouse_bite
+  3: spur
+  4: spurious_copper
+  5: missing_hole
