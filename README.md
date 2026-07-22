@@ -90,7 +90,7 @@ The trained model detects the following PCB manufacturing defects:
 
 ## Home Dashboard
 
-> *(Save your screenshots inside an `assets/` folder and update the filenames if needed.)*
+
 
 | Dashboard | Detection Results |
 |------------|-------------------|
