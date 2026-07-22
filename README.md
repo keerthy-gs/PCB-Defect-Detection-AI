@@ -81,9 +81,9 @@ The trained model detects the following PCB manufacturing defects:
 | Open | Broken electrical connection |
 | Short | Unwanted electrical connection |
 | Mouse Bite | Missing material on PCB edge |
-| Spur | Small unwanted copper projection |
-| Copper | Excess copper defect |
-| Pin Hole | Small hole in copper trace |
+| Spur | Small unwanted spurious copper projection |
+|Spurious Copper | Excess spurious copper defect |
+| Missing Hole | Small hole in spurious copper trace |
 
 ---
 # 📸 Dashboard Preview
