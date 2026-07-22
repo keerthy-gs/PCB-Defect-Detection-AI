@@ -120,8 +120,8 @@ The trained model detects the following PCB manufacturing defects:
       │ • Short                    │
       │ • Mouse Bite               │
       │ • Spur                     │
-      │ • Copper                   │
-      │ • Pin Hole                 │
+      │ • Spurious Copper          │
+      │ • Missing Hole             │
       └────────────────────────────┘
                      │
                      ▼
