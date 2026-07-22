@@ -137,12 +137,18 @@ The trained model detects the following PCB manufacturing defects:
 # 📂 Project Structure
 
 ```text
-PCB-Defect-Detection-AI
+PCB-Defect-Detection-AI/
 │
 ├── app.py
+├── detect.py
+├── train.py
+├── test_model.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
+├── dataset.yaml
+├── merged_dataset.yaml
+├── yolov8n.pt
 │
 ├── models/
 │   └── best.pt
@@ -150,13 +156,20 @@ PCB-Defect-Detection-AI
 ├── src/
 │   └── detector.py
 │
-├── dataset/
+├── notebooks/
+│   └── 01_YOLOv8_PCB_Defect_Detection_Training.ipynb
 │
-├── reports/
-│
-├── outputs/
+├── results/
+│   ├── README.md
+│   ├── results.png
+│   ├── confusion_matrix.png
+│   ├── BoxF1_curve.png
+│   ├── BoxPR_curve.png
+│   ├── BoxP_curve.png
+│   └── BoxR_curve.png
 │
 └── assets/
+    └── Project screenshots
 ```
 
 ---
