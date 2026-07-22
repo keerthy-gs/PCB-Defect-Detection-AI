@@ -253,6 +253,8 @@ The model is capable of detecting six different PCB defect categories in real ti
 | Training method | Staged checkpoint fine-tuning |
 | Total completed epochs | 53 |
 
+[View the complete YOLOv8 training notebook](notebooks/01_YOLOv8_PCB_Defect_Detection_Training.ipynb)
+
 ### Final Validation Results
 
 | Metric | Result |
