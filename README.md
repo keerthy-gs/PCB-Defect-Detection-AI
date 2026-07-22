@@ -238,8 +238,30 @@ The model is capable of detecting six different PCB defect categories in real ti
 | Short | ✅ |
 | Mouse Bite | ✅ |
 | Spur | ✅ |
-| Copper | ✅ |
-| Pin Hole | ✅ |
+| Spurious Copper | ✅ |
+| Missing Hole | ✅ | 
+
+### Training Configuration
+
+| Setting | Value |
+|---|---|
+| Model | YOLOv8n |
+| Training images | 6,372 |
+| Validation images | 1,511 |
+| Image size | 640 × 640 |
+| Batch size | 16 |
+| Training method | Staged checkpoint fine-tuning |
+| Total completed epochs | 53 |
+
+### Final Validation Results
+
+| Metric | Result |
+|---|---:|
+| Precision | 92.4% |
+| Recall | 86.4% |
+| mAP@50 | 92.3% |
+| mAP@50–95 | 57.0% |
+| Inference time | 2.3 ms per image |
 
 ---
 
