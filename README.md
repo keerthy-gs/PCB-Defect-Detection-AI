@@ -263,6 +263,16 @@ The model is capable of detecting six different PCB defect categories in real ti
 | mAP@50–95 | 57.0% |
 | Inference time | 2.3 ms per image |
 
+### Training Result Graphs
+
+#### Training Progress
+
+![YOLOv8 Training Results](results/results.png)
+
+#### Confusion Matrix
+
+![PCB Defect Confusion Matrix](results/confusion_matrix.png)
+
 ---
 
 # 🔄 Detection Pipeline
